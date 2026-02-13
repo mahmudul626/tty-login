@@ -143,9 +143,9 @@ int main() {
 
     if (flag)
     {
-        printf("Login Successfull!\n");
+        printf("\033[1;32mLogin Successfull!\033[0m\n");
     } else {
-        printf("Try again!\n");
+        printf("\033[1;31mTry again!\033[0m\n");
     }
     
     
